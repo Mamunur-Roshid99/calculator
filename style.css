@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.claculatorBody {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 320px;
+   height: 550px;
+   border: 1px solid #717377;
+   border-radius: 16px;
+   background: transparent;
+   box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+.button {
+    display: flex;
+    justify-content: conter;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-self: center;
+    margin-left: 4px;
+}
+
+input[value=")"] {
+    background-color: #A5A5A5;
+    border: none;
+    color: black;
+}
+
+input[value="("] {
+    background-color: #A5A5A5;
+    border: none;
+    color: black;
+}
+
+input[value="C"] {
+    background-color: #A5A5A5;
+    border: none;
+    color: black;
+}
+
+input[value="+"] {
+    background-color: #FF9f0A;
+    border: none;
+}
+
+input[value="-"] {
+    background-color: #FF9f0A;
+    border: none;
+}
+
+input[value="*"] {
+    background-color: #FF9f0A;
+    border: none;
+}
+
+input[value="="] {
+    background-color: #FF9f0A;
+    border: none;
+}
+
+input[value="/"] {
+    background-color: #FF9f0A;
+    border: none;
+}
+input[value="%"] {
+    background-color: #FF9f0A;
+    border: none;
+}
+input[value="DEL"] {
+    background-color: #FF9f0A;
+    border: none;
+    font-size: 25px;
+}
+
+input[value="9"] {
+    background-color: #343434;
+    border: none;
+}
+
+input[value="8"] {
+    background-color: #343434;
+    border: none;
+}
+
+input[value="7"] {
+    background-color: #343434;
+    border: none;
+}
+
+input[value="6"] {
+    background-color: #343434;
+    border: none;
+}
+
+input[value="5"] {
+    background-color: #343434;
+    border: none;
+}
+
+input[value="4"] {
+    background-color: #343434;
+    border: none;
+}
+
+input[value="3"] {
+    background-color: #343434;
+    border: none;
+}
+
+input[value="2"] {
+    background-color: #343434;
+    border: none;
+}
+
+input[value="1"] {
+    background-color: #343434;
+    border: none;
+}
+input[value="0"] {
+    background-color: #343434;
+    border: none;
+}
+
+input[value="."] {
+    background-color: #343434;
+    border: none;
+}
+
+#MyResult {
+   position: relative;
+    width: 95%;
+    height: 170px;
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    align-items: center;
+    font: bold;
+    text-align: right;
+    justify-self: center;
+}
+
+
